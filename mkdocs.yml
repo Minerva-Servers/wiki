@@ -1,0 +1,79 @@
+site_name: Minerva Servers Wiki
+site_description: Official knowledge base for Minerva Servers
+site_author: Minerva Servers
+site_url: https://wiki.minerva-servers.com
+copyright: "© Minerva Servers"
+
+theme:
+  name: material
+  logo: assets/logo_2025_2048x2048.ico
+  favicon: assets/logo_2025_2048x2048.ico
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.indexes
+    - toc.integrate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - content.action.edit
+    - search.highlight
+    - search.suggest
+    - search.share
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - styles/extra.css
+extra_javascript:
+  - javascripts/extra.js
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+
+plugins:
+  - search
+  - macros
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.magiclink
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Overview:
+    - Home: index.md
