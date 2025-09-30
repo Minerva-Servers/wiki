@@ -75,21 +75,21 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
-  - Home: docs/index.md
+  - Home: index.md
   - Chapters:
-      - Overview: docs/chapters/index.md
-      - Chapter One: docs/chapters/chapter1.md
-      - Chapter Two: docs/chapters/chapter2.md
-      - Chapter Three: docs/chapters/chapter3.md
+      - Overview: chapters/index.md
+      - Chapter One: chapters/chapter1.md
+      - Chapter Two: chapters/chapter2.md
+      - Chapter Three: chapters/chapter3.md
   - Seasons:
-      - Overview: docs/seasons/index.md
-      - Season One: docs/seasons/season1.md
-      - Season Two: docs/seasons/season2.md
-      - Season Three: docs/seasons/season3.md
+      - Overview: seasons/index.md
+      - Season One: seasons/season1.md
+      - Season Two: seasons/season2.md
+      - Season Three: seasons/season3.md
   - Lore:
-      - Timeline: docs/lore/timeline.md
-      - Factions: docs/lore/factions.md
+      - Timeline: lore/timeline.md
+      - Factions: lore/factions.md
   - Framework:
-      - Overview: docs/framework/index.md
-      - Parallax: docs/framework/parallax.md
-      - Gamemaster System: docs/framework/gamemaster.md
+      - Overview: framework/index.md
+      - Parallax: framework/parallax.md
+      - Gamemaster System: framework/gamemaster.md
