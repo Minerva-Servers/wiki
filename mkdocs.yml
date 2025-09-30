@@ -89,6 +89,7 @@ nav:
   - Lore:
       - Timeline: lore/timeline.md
       - Factions: lore/factions.md
+      - The Combine: lore/uu.md
   - Framework:
       - Overview: framework/index.md
       - Parallax: framework/parallax.md
