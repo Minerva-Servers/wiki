@@ -1,3 +1,6 @@
-# Minerva Servers
+# Minerva Servers Wiki
 
-Welcome to the Minerva Servers wiki! This site provides information about our community, servers, rules, lore, and more.
+Welcome to the official knowledge base for **Minerva Servers**.  
+This wiki covers the ongoing story of **Season Three**, broken into **Chapters**, alongside lore, factions, and technical documentation.
+
+Whether you're catching up on the narrative or digging into Parallax framework notes, this is the place.
