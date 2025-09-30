@@ -2,4 +2,4 @@
 
 # The Combine #
 
-Migrant by nature or perhaps nessesity, the origins of the Combine are disputed. 
+It is said that the existance of The Combine predates the very concept of humanity, before Earth was. This was a particularly popular idea in the early years of the Combine's occupation, but a new theory has taken shape. Some say that the Combine is no older than humanity. 
