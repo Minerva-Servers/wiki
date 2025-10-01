@@ -90,6 +90,13 @@ nav:
       - Timeline: lore/timeline.md
       - Factions: lore/factions.md
       - The Combine: lore/universalunion.md
+      - Before the Resonance Cascade: lore/prc.md
+      - Xen Wildlife and Flora: lore/xen.md
+      - The Resonance Cascade: lore/resonancecascade.md
+      - Post Resonance Cascade: lore/postresonancecascade.md
+      - The Xenian Invasion of Earth: lore/xenianinvasion.md
+      - The Seven Hour War: lore/7hw.md
+      - The Combine's Regime: lore/combineregime.md
   - Framework:
       - Overview: framework/index.md
       - Parallax: framework/parallax.md
