@@ -87,16 +87,18 @@ nav:
       - Season Two: seasons/season2.md
       - Season Three: seasons/season3.md
   - Lore:
-      - Timeline: lore/timeline.md
-      - Factions: lore/factions.md
-      - The Combine: lore/universalunion.md
-      - Before the Resonance Cascade: lore/prc.md
-      - Xen Wildlife and Flora: lore/xen.md
-      - The Resonance Cascade: lore/resonancecascade.md
-      - Post Resonance Cascade: lore/postresonancecascade.md
-      - The Xenian Invasion of Earth: lore/xenianinvasion.md
-      - The Seven Hour War: lore/7hw.md
-      - The Combine's Regime: lore/combineregime.md
+      - Timeline:
+        - Overview: lore/timeline.md
+        - Before the Resonance Cascade: lore/prc.md
+        - The Resonance Cascade: lore/resonancecascade.md
+        - Post Resonance Cascade: lore/postresonancecascade.md
+        - The Xenian Invasion of Earth: lore/xenianinvasion.md
+        - The Seven Hour War: lore/7hw.md
+      - Factions:
+        - Overview: lore/factions.md
+        - The Combine: lore/universalunion.md
+        - The Combine's Regime: lore/combineregime.md
+        - Xen Wildlife and Flora: lore/xen.md
   - Framework:
       - Overview: framework/index.md
       - Parallax: framework/parallax.md
