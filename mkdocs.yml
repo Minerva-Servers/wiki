@@ -99,7 +99,5 @@ nav:
         - The Combine: lore/universalunion.md
         - The Combine's Regime: lore/combineregime.md
         - Xen Wildlife and Flora: lore/xen.md
-  - Framework:
-      - Overview: framework/index.md
-      - Parallax: framework/parallax.md
-      - Gamemaster System: framework/gamemaster.md
+  - Parallax:
+      - Overview: parallax/index.md
