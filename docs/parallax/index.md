@@ -8,7 +8,7 @@ description: What Parallax is and how it powers Minerva servers
 Parallax is Minerva Servers’ custom game framework for Garry’s Mod. It’s the foundation that powers gameplay, UI, networking, and schema content across our servers. While most players don’t see it directly, everything from character systems to in-game interfaces runs on Parallax.
 
 !!! note "Player-focused overview"
-		You don’t need to know how Parallax is coded to enjoy the server. This page explains what it is at a high level, why it exists, and where it lives—without deep technical detail.
+    You don’t need to know how Parallax is coded to enjoy the server. This page explains what it is at a high level, why it exists, and where it lives—without deep technical detail.
 
 ## What it is
 
@@ -28,18 +28,18 @@ Parallax is Minerva Servers’ custom game framework for Garry’s Mod. It’s t
 Parallax is part of the server’s gamemode files and loads automatically when the server starts.
 
 ??? details "Technical layout (for the curious)"
-		- Entry points include the framework boot sequence and utility helpers:
-			- `gamemode/init.lua` (server) and `gamemode/cl_init.lua` (client)
-			- `framework/boot.lua` orchestrates loading
-			- `framework/util.lua` provides include/realm helpers
-		- Auto-load order (handled by `boot.lua`):
-			1. `libraries/`
-			2. `meta/`
-			3. `core/`
-			4. `hooks/`
-			5. `networking/`
-			6. `interface/`
-		- Schemas (like HL2RP) extend Parallax with their own content under `schema/`
+    - Entry points include the framework boot sequence and utility helpers:
+        - `gamemode/init.lua` (server) and `gamemode/cl_init.lua` (client)
+        - `framework/boot.lua` orchestrates loading
+        - `framework/util.lua` provides include/realm helpers
+    - Auto-load order (handled by `boot.lua`):
+        1. `libraries/`
+        2. `meta/`
+        3. `core/`
+        4. `hooks/`
+        5. `networking/`
+        6. `interface/`
+    - Schemas (like HL2RP) extend Parallax with their own content under `schema/`
 
 ## Key points
 
@@ -47,22 +47,21 @@ Parallax is part of the server’s gamemode files and loads automatically when t
 - It keeps gameplay systems organized and consistent
 - Schemas build on top of Parallax to deliver specific game modes and content
 
-## Quick navigation
+## Summary
 
-- [Home](../index.md)
-- [Chapters – Overview](../chapters/index.md)
-- [Parallax – Overview](./index.md)
+Parallax is the invisible backbone of Minerva Servers, keeping everything running smoothly for players. You don’t need to manage or update anything—just play and enjoy the features, menus, and systems built on Parallax.
 
-=== "For players"
-		- Parallax keeps the server stable and responsive
-		- It’s updated behind the scenes; you don’t need to do anything
-		- Gameplay features you use every day are powered by it
+**How does Parallax compare to other frameworks?**
 
-=== "For the curious"
-		- Naming convention: `cl_` (client), `sv_` (server), `sh_` (shared)
-		- Store & networking patterns provide config and options syncing
-		- Hot-reload hooks help developers iterate safely
+- Parallax uses a weight-based inventory system, similar to Clockwork and impulse. This means your character’s carrying capacity is based on item weight, not a grid or slots like Helix or Nutscript.
+- Parallax is modular and hot-reloadable, allowing developers to update features and fix bugs without restarting the server. This keeps gameplay stable and responsive.
+- Parallax is schema-driven: it’s designed to support custom roleplay experiences (like HL2RP) by letting schemas extend the framework with their own content and rules.
+- Parallax avoids legacy bloat and is built with modern code practices, making it easier to maintain and expand.
+- Unlike DarkRP, which is a sandbox gamemode, Parallax is a true framework for building custom roleplay gamemodes.
 
-# Parallax Framework
+**Technical highlights:**
 
-Parallax is a custom framework built from scratch for Garry's Mod roleplay. It powers Minerva Servers and exists to make roleplay stable, immersive, and enjoyable without requiring you to be a coder.
+- Unified namespace (`ax`) and clear file prefixes (`cl_`, `sv_`, `sh_`) for consistency
+- Store pattern for config and options syncing
+- Hot-reload hooks for safe updates
+- Schemas extend Parallax for unique game modes
