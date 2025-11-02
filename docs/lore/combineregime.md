@@ -25,4 +25,7 @@ The Combine Civil Authority is the Combine's human governance on Earth. Despite 
 | `Departments`             |   City level associations; Department of the Treasury, Department of Logistics, Civil Protection Force, Union Public Broadcasting Service.         |
 
 ## Global Administration ##
-The highest level of civilian government on Earth. Global Administration is headed by Wallace Breen, the Earth Administrator with the assistance of his cabinet simply called "The Cabinet." The Cabinet serves to advise the administrator and manage minor 
+The highest level of civilian government on Earth. Global Administration is headed by Wallace Breen, the Earth Administrator with the assistance of his cabinet simply called "The Planetary Cabinet." The Planetry Cabinet serves to advise the administrator and manage day-to-day errands the administrator might not have the time to get done himself. Earth Administration solely consists of the Planetary Cabinet and Administrator Breen, being one of the most secretive circles on the planet. Members of the Planetary Cabinet typically are certain prominent Sector or City Administrators, as well as minor collaborators. There are currently twelve Planetary Cabinet Members, each one representing their own cities, ministries, and political interests. For the sake of safety, the identities of Planetary Cabinet members are left unknown and if a public event is to be attended, they typically go by aliases. 
+
+## Sector Administration ##
+There are twenty sectors 
