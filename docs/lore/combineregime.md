@@ -6,8 +6,6 @@
 ## Destruction of North America ##
 North America was subjected to near continental wide destruction after the concentrated surge of portal storms coupled with the Combine's invasion over Earth. The aftermath led North America to an unhabitable state for the human population due to disintegrated settlements, the mass occupation of otherworldy creatures, extreme climate and suffocating air. 
 
-
-
 # The Combine Civil Authority #
 The Combine Civil Authority is the Combine's human governance on Earth. Despite popular rumor in many cities, the Combine does have a multi-faceted governmental structure. The Combine Civil Authority, or CCA is a catch-all term for Global, Sector, and City Administration. 
 
