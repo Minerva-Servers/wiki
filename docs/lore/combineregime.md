@@ -12,6 +12,7 @@ North America was subjected to near continental wide destruction after the conce
 The Combine Civil Authority is the Combine's human governance on Earth. Despite popular rumor in many cities, the Combine does have a multi-faceted governmental structure. The Combine Civil Authority, or CCA is a catch-all term for Global, Sector, and City Administration. 
 
 **USEFUL TERMS**
+
 | Term Name     | Description                          |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Global Administration`   | The highest branch of government under the Combine. Oversees Sector Administration.                                                                |
@@ -22,3 +23,6 @@ The Combine Civil Authority is the Combine's human governance on Earth. Despite 
 | `Collaborators`           |   Individuals actively working for the Combine.                                                                                                    |
 | `Bureaus`                 |  Minor, specialized divisions of a department. Examples include: Bureau of Funds, Civil Worker's Union, Civil Research Union, Infestation Control. |
 | `Departments`             |   City level associations; Department of the Treasury, Department of Logistics, Civil Protection Force, Union Public Broadcasting Service.         |
+
+## Global Administration ##
+The highest level of civilian government on Earth. Global Administration is headed by Wallace Breen, the Earth Administrator with the assistance of his cabinet simply called "The Cabinet." The Cabinet serves to advise the administrator and manage minor 
